@@ -12,12 +12,12 @@ const MiniProjects = () => {
     <>
       <Outlet />
       <div className={classes.main}>
-        <Mini1 />
-        <Mini2 />
-        <Mini3 />
-        <Mini4 />
-        <Mini5 />
-        <Mini6 />
+        <Mini1 title="Mini-1"/>
+        <Mini2 title="Mini-2"/>
+        <Mini3 title="Mini-3"/>
+        <Mini4 title="Mini-4"/>
+        <Mini5 title="Mini-5"/>
+        <Mini6 title="Mini-6"/>
       </div>
     </>
   );

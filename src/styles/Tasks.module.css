@@ -1,12 +1,12 @@
 
 
-.task1 h2 {
+.task h2 {
     margin-top: 15rem;
     text-align: center;
     color: var(--coral)
 }
 
-.task1 form {
+.task form {
     background-color: rgb(0,0,0,0.8);
     width: 80%;
     margin: auto;
@@ -18,34 +18,56 @@
 
 }
 
-.task1 form div {
+.task form div {
     margin: 0.5rem;
     
 }
 
-.task1 form label {
+.task form label {
     margin: 0.5rem;
 }
 
-.task1 form button {
+.task form input {
+    border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+   
+}
+
+.task form button {
     margin: 0.5rem;
     color: rgba(0,0,0,0.8) 
 }
 
-.task1 form button:focus, .task1 form button:active, .task1 form button:hover {
+.task form button:focus, .task form button:active, .task form button:hover {
     background-color:rgba(0,0,0,0.8);
     color: var(--ivory) 
 }
 
+.task .link a {
+  margin-top: 1.5rem;
+  border: 2px solid var(--coral);
+  display: inline-block;
+  padding: 0 1.5rem;
+  border-radius: 1.5rem;
+  color: var(--coral)
+}
+
+.task .link a:focus, .task .link a:active, .task .link:hover {
+  background-color: var(--coral);
+  border: 2px solid var(--ivory);
+  color: var(--ivory);
+}
+
 @media screen and (min-width: 992px) {
-  .task1 {
+  .task {
     text-align: center;
     width: 60vw;
     margin-top: 1.5rem;
     position: relative;
     left: 40vw;
   }
-  .task1 h2 {
+  .task h2 {
     margin-top: 0;
   }
 }

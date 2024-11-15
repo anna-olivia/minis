@@ -3,7 +3,7 @@ import classes from '../styles/Minis.module.css';
 import { Link } from 'react-router-dom';
 
 
-const Mini1 = () => {
+const Mini1 = ({title}) => {
     return (
         <div className={classes.minis}>
      
@@ -11,7 +11,7 @@ const Mini1 = () => {
             <figure>
                 <ExtensionIcon className="muiIcons"/>
                 <figcaption>
-                    <h2>Mini-1</h2>
+                    <h2>{title}</h2>
                     </figcaption>
             </figure>
             </Link>

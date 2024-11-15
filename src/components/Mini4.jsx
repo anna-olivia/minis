@@ -1,13 +1,13 @@
 import ExtensionIcon from '@mui/icons-material/Extension';
 import classes from '../styles/Minis.module.css'
 
-const Mini4 = () => {
+const Mini4 = ({title}) => {
     return (
         <div className={classes.minis}>
             <figure>
                 <ExtensionIcon className="muiIcons"/>
                 <figcaption>
-                    <h2>Mini-4</h2>
+                    <h2>{title}</h2>
                     </figcaption>
             </figure>
         </div>

@@ -7,9 +7,11 @@
     background: url(../assets/background.svg);
 }
 
-.header h1 {
+.header a{
     padding: 0.5rem;
+    color: var(--ivory);
 }
+
 
 @media screen and (min-width:992px){
     
