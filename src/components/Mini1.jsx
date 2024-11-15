@@ -7,7 +7,7 @@ const Mini1 = () => {
     return (
         <div className={classes.minis}>
      
-     <Link to="/project1">
+     <Link to="/task1">
             <figure>
                 <ExtensionIcon className="muiIcons"/>
                 <figcaption>

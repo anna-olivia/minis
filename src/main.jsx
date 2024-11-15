@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MiniProjects from './components/MiniProjects.jsx';
-import Project1 from './routes/Project1.jsx';
-import Project2 from './routes/Project2.jsx';
+import Task1 from './routes/Task1.jsx';
+import Task2 from './routes/Task2.jsx';
 import RootLayout from './routes/RootLayout.jsx';
 
 
@@ -15,7 +15,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <MiniProjects />,
        },
-       {path: '/project1', element: <Project1/>}
+       {path: '/task1', element: <Task1/>},
+       {path: '/task2', element: <Task2/>}
 
     ],
   },

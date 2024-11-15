@@ -5,7 +5,7 @@ import Mini4 from "./Mini4";
 import Mini5 from "./Mini5";
 import Mini6 from "./Mini6";
 import classes from "../styles/Main.module.css";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const MiniProjects = () => {
   return (
