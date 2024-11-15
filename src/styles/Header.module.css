@@ -1,0 +1,26 @@
+.header {
+    /* border-right: 1.5px dotted var(--ivory); */
+    padding-right: 2.5rem;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: url(../assets/background.svg);
+}
+
+.header h1 {
+    padding: 0.5rem;
+}
+
+@media screen and (min-width:992px){
+    
+.header {
+    width: 40vw;
+    
+    
+}    
+.header h1 {
+  writing-mode: vertical-lr;
+/* border: 1px solid red; */
+margin-top: 5.5rem;;
+}
+}
