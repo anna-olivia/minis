@@ -2,6 +2,7 @@ import Mini from "./Mini.jsx";
 import classes from "../styles/Main.module.css";
 import { Outlet } from "react-router-dom";
 
+
 const MiniProjects = () => {
   const minis = [
     { title: "Mini-", number: 1 },
@@ -12,10 +13,13 @@ const MiniProjects = () => {
     { title: "Mini-", number: 6 },
   ];
 
+  
+
   return (
     <>
       <Outlet />
       <div className={classes.main}>
+      
         {minis.map((mini) => (
           <Mini key={mini.number} title={`${mini.title}${mini.number}`} number={mini.number} />
         ))}

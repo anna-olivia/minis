@@ -67,6 +67,10 @@ const Task1 = () => {
             <h3>Ergebnis: {result} €</h3>
           )}
         </form>
+        <div className={classes.link}>
+                <Link to="/">Zu den Aufgaben</Link>
+            </div>
+
       </div>
     </>
   );
