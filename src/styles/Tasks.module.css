@@ -50,14 +50,19 @@
   display: inline-block;
   padding: 0 1.5rem;
   border-radius: 1.5rem;
-  color: var(--coral)
+  color: var(--coral);
+  
 }
 
-.task .link a:focus, .task .link a:active, .task .link:hover {
+.task .link a:focus, .task .link a:active, .task .link a:hover {
   background-color: var(--coral);
   border: 2px solid var(--ivory);
   color: var(--ivory);
+
 }
+
+
+
 
 @media screen and (min-width: 992px) {
   .task {
@@ -70,4 +75,6 @@
   .task h2 {
     margin-top: 0;
   }
+
+ 
 }
